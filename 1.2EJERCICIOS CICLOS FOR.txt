@@ -1,0 +1,17 @@
+Curso sobre ciclos FOR
+----------------------
+----------------------
+
+Definición
+-------------------<<
+¡Estamos aprendiendo a programar porque no queremos hacer trabajos aburridos y repetitivos! Eso lo tiene 
+que hacer la computadora. Este primer ejercicio es un buen ejemplo de la precisa razón por la que queremos 
+aprender ciclos for.
+-------------------->>
+
+1) Primer ciclo for
+
+for (var counter = 1; counter < 6; counter ++){
+	console.log(counter);
+}
+
