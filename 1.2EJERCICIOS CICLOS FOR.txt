@@ -82,6 +82,14 @@ for (var i=10; i>=0; i--){
 	console.log(i);
 }
 
+----------------------------------
+Escribí un ciclo for que haga que la computadora cuente hacia atrás 
+desde 100 hasta 0 de 5 en 5. Esta vez asegurate de no mostrar el 0.
+
+for (var i=100; i>=1; i-=5){
+	console.log(i);
+} 
+
 
 
 
