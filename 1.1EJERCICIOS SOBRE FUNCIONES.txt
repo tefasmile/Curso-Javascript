@@ -1,0 +1,148 @@
+EJERCICIOS SOBRE FUNCIONES
+
+-------------------------
+-------------------------
+
+
+1) Vamos a hacer un repaso breve - usá una sentencia if / else para controlar a que velocidad estás manejando
+var velocidad = 80;
+
+if( velocidad > 80)
+{
+	console.log("bajá la velocidad");
+}
+else{
+	console.log("Manejo seguro");
+}
+
+
+mayor o igual que >=
+menor o igual que <=
+
+--------------------------------
+
+2) Programar es como hacer tortas. ¡En serio! Imaginate que estás tratando de enseñarle a tu amiga Lucila cómo cocinar muchos tipos de tortas diferentes.
+
+Cada torta requiere distintos ingredientes (es decir, datos de entrada). Pero las instrucciones de 'cocción' siempre son las mismas. Por ejemplo: 
+
+1. Precalentá el horno a 300 grados  
+2. Mezclá todos los ingredientes en un bol
+3. Meté el contenido en el horno por 30 minutos 
+
+var dividirPorTres = function(number){
+	var val = number/3;
+	console.log(val);
+};
+dividirPorTres(6);
+
+------------------------------------------
+
+3) Sintaxis de función
+
+var Saludo = function(name){
+	console.log("Hola"+" "+name);
+}
+Saludo("tefa");
+
+var saludo = function(name){
+	console.log("Que bueno verte"+" "+name);
+}
+saludo("kaliman");
+
+
+Explicacion:
+
+1-Primero declaramos la función usando var y después le asignamos un nombre saludo. El nombre tiene que comenzar con minúscula y la convención es usar minúscula/mayúscula, dónde cada palabra (menos la primera) comienza con mayúscula.
+
+2-Después tenés que usar el comando function para decirle a la computadora que estás haciendo una función.
+
+3-El fragmento entre paréntesis se llama el parámetro. Pensá que es una palabra de reemplazo a la que le asignamos un valor específico cuando llamamos a la función. 
+
+4-Despues escribí tu código reusable entre { }. Cada línea de código en este bloque debe terminar con un ;
+
+5-Para llamar a la fúncion la realizas de la siguiente manera:
+	saludo("Kaliman");
+    
+------------------------------------------
+
+El comando return simplemente devuelve el valor que resulta de la funcion
+
+var porDos = function(numero) {
+    return numero * 2;
+};
+
+// llama a porDos acá
+var nuevoNumero = 8;
+console.log(nuevoNumero);
+porDos(4);
+-------------------------------------------------
+
+var unCuarto = function(numero){
+	return numero/4;
+};
+
+
+if(unCuarto(0) % 3 == 0){
+	console.log("Sentencia verdadera");
+}else{
+	console.log("Sentencia Falsa");
+}
+-------------------------------------------------
+
+var perimetroCaja = function(longitud,ancho){
+    return longitud + longitud + ancho + ancho;
+};
+
+perimetroCaja(2,2,5,5);
+
+-----------------------------------------
+
+var global:
+
+var mensaje = "Callme";
+
+var respuesta = function(muestraMsn){
+	alert(mensaje);
+}
+
+var local:
+
+function CrearMensaje(){
+	var mensaje="Llamada";
+	console.log(mensaje);
+}
+-------------------------------------------
+
+var mi_numero = 7; //esto tiene ambito global
+
+var porDos = function(numero){
+	var mi_numero = numero * 2;
+	console.log("Dentro de la funcion mi_numero es: ");
+	console.log(mi_numero); 
+};
+
+porDos(7);
+
+console.log("Fuera de la funcion mi_numero es: ");
+console.log(mi_numero); 
+
+-----
+function crear_mensaje(){
+	var mensaje = "Hola que tal";
+}
+crear_mensaje();
+alert(mensaje);
+
+------------------------------------
+
+var controlDescanso = function(cantHoras){
+   if(cantHoras >= 8)
+    {
+        return console.log("¡Estás durmiendo suficiente! ¡Demasiado quizás!");
+    }else(cantHoras <= 8)
+    {
+        return console.log("¡Cerrá los ojos un poco más!");
+    } 
+};
+
+controlDescanso(10);
