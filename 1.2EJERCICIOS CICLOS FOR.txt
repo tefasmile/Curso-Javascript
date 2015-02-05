@@ -35,3 +35,19 @@ for (var i=4; i < 24; i=i+1){
 	console.log(i);
 }
 
+-----------------------------
+
+2) Controlemos el ciclo for
+
+Ahora podemos controlar donde comienza y termina un ciclo for. Pero, ¿cómo controlamos lo que pasa en el medio?
+Los ejemplos que vimos usaban i = i + 1. Esto significa que incrementamos (aumentamos) la variable i en 1 cada vez.
+
+Reglas para aprender:
+- Un codigo muchisimo más eficiente para incrementar en 1 es i++.
+- Disminuimos en 1 escribiendo i--.
+- Podemos incrementar hasta cualquier valor escribiendo i += x, donde x es en cuánto queremos incrementar. Por ejemplo, i += 3 incrementa el contador de a 3.
+- Podemos disminuir hasta cualquier valor escribiendo i -= x. (Mirá el consejo).
+e. Sé muy cuidadoso con tu sintaxis. Si escribís un ciclo que no puede terminar apropiadamente, se trata de un ciclo infinito. ¡Te va a romper el explorador!   
+
+
+
