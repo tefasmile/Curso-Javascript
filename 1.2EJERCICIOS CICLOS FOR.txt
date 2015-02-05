@@ -47,7 +47,13 @@ Reglas para aprender:
 - Disminuimos en 1 escribiendo i--.
 - Podemos incrementar hasta cualquier valor escribiendo i += x, donde x es en cuánto queremos incrementar. Por ejemplo, i += 3 incrementa el contador de a 3.
 - Podemos disminuir hasta cualquier valor escribiendo i -= x. (Mirá el consejo).
-e. Sé muy cuidadoso con tu sintaxis. Si escribís un ciclo que no puede terminar apropiadamente, se trata de un ciclo infinito. ¡Te va a romper el explorador!   
+e. Sé muy cuidadoso con tu sintaxis. Si escribís un ciclo que no puede terminar apropiadamente, se trata de un ciclo infinito. ¡Te va a romper el explorador!
+
+Ejemplo:
+
+for (var n = 5; n < 51; n+=5){
+	console.log(n);
+}   
 
 
 
