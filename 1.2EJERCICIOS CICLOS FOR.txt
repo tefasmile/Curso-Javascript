@@ -53,7 +53,29 @@ Ejemplo:
 
 for (var n = 5; n < 51; n+=5){
 	console.log(n);
-}   
+} 
+
+Otro Ejemplo:
+
+for (var i = 8 ; i < 120; i+=12) {
+	console.log(i);
+}
+
+--------------------------------->>
+---------------------------------<<
+
+Ejercicios de conteo hacia atrás
+
+Los ciclos for solo se ejecutan cuando la condición es true (verdadera).
+
+//Ejemplo de un ciclo infinito - ESTO BLOQUEARÁ TU COMPUTADORA.
+//BUSCADOR. ¡No ejecutes el código sin cambiarlo!
+
+for( var i = 1 ; i >= 1 ; i ++ ) {
+	console.log(i);
+}
+
+
 
 
 
