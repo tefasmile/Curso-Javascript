@@ -1,0 +1,80 @@
+CICLOS FOR CON ARREGLOS
+----------------------->>
+-----------------------<<
+
+Los arreglos:
+
+a. almacenan listas de datos
+b. pueden almacenar diferentes tipos de datos al mismo tiempo
+c. están ordenados de forma que la posición de cada dato es fija
+
+EJEMPLOS
+
+* var nombres = ["Mao", "Ghandi", "Mandela"];
+
+* var tamaños = [4, 6, 3, 2, 1, 9];
+
+* var mixto = [34, "dulces", "azul", 11];
+
+Sintaxis:
+
+var nombreArreglo = [datos, datos, datos];
+
+----------------------------
+
+Posiciones de los arreglos
+
+Estos se cuentan desde 0, es decir el Primer elemento en el arreglo: datosChatarra[0]
+
+EJEMPLO:
+
+var datosChatarra = ["Eddie Murphy", 49, "maníes", 31];
+console.log([4]);
+
+----------------------------
+
+Ciclos y arreglos I
+
+¡Qué buen trabajo! Aprendiste sobre arreglos y como acceder a un elemento del arreglo. Pero, ¿qué pasaría si el arreglo tuviera 100 elementos?
+
+En los arreglos, una manera útil de acceder sistemáticamente a cada elemento es usando un ciclo for.
+
+
+
+¿Cómo funciona?
+
+var ciudades = ["Misiones", "Salta", "Mendoza", "Buenos Aires"];
+
+for (var i = 0; i < ciudades.length; i++) {
+    console.log("Me gustaría visitar" + " " + ciudades[0]);
+}
+
+var lugares = ["Perú", "Amazonas", "Cabo de la Vela", "Toda Latinoamerica"];
+
+for (var i=0; i < ciudades.length; i++){
+	console.log("Voy a viajar a"+" "+lugares[i]);
+}
+
+Explicación:
+
+1. La línea 3 declara el arreglo. El arreglo tiene 4 elementos.
+
+2. Luego, comenzamos con el ciclo for en la línea 5.
+
+3. Vemos que i comienza con un valor de 0. 
+
+4. El ciclo for se ejecuta hasta que i < 4 (porque ciudades.length es igual a 4. El arreglo ciudades tiene 4 elementos; mirá el consejo para entender mejor.)
+
+5. Incrementaremos i de 1 en 1 cada vez que se complete un ciclo.
+
+6. Mostramos en pantalla ciudades[0], que es igual a "Misiones".
+
+7. Luego volvemos a empezar el ciclo. Excepto que ahora i = 1.
+
+8. Mostrará en pantalla ciudades[1], que es "Salta". 
+
+9. Esto se repite hasta que i ya no sea menor que ciudades.length.
+
+
+
+
